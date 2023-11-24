@@ -2,6 +2,7 @@ from typing import Union
 from fastapi import FastAPI
 
 from generate_answer import get_answer
+from embedding import compute_embedding
 
 app = FastAPI()
 
@@ -11,9 +12,9 @@ def read_item(session_id: int, question: Union[str, None] = None):
     return {"answer": answer}
 
 @app.post("/{session_id}/context")
-def read_item(session_id: int, question: Union[str, None] = None):
-    # todo
-    return {"number of tokens of the context": 5}
+def read_item(session_id: int, context = None):
+    nb_of_letters = compute_embedding(context) *1000
+    return {"number of letters of the context": nb_of_letters}
 
 
 
