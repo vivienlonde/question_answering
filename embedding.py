@@ -46,7 +46,7 @@ def compute_embedding(pdf_path):
         embeddings.append(compute_vector(text[nb_of_letters_per_chunk * i:]))
       i += 1
   np.save('data/example.npy', embeddings)
-  # embeddings = np.load('data/example.npy')
+  # embeddings = np.load('data/example.npy')  
   return len(embeddings)
 
 
