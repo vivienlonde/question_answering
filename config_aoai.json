@@ -1,6 +1,0 @@
-{
-    "AZURE_OPENAI_COMPLETION":"gpt-35-turbo",
-    "AZURE_OPENAI_EMBEDDING":"text-embedding-ada-002",
-    "AZURE_OPENAI_ENDPOINT":"https://swiss-aoai-viv.openai.azure.com/",
-    "AZURE_OPENAI_API_KEY":"e120732f7581400ea252288e2ba395ff"
-}

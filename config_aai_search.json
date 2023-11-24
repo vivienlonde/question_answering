@@ -1,5 +1,0 @@
-{
-    "AZURE_SEARCH_SERVICE_ENDPOINT":"https://ai-search-viv.search.windows.net",
-    "AZURE_SEARCH_INDEX_NAME":"context",
-    "AZURE_SEARCH_ADMIN_KEY":"0e54DNgN5mP7fscCpt6zY5EW7lDtGmQoXf8BIpgV74AzSeDMohyH"
-}
